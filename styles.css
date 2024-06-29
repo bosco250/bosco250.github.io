@@ -67,6 +67,9 @@ body {
   display: flex;
   padding-left: 40px;
 }
+.darker .body-container{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+}
 .hello {
   width: 100%;
 }
@@ -94,6 +97,9 @@ body {
 
   padding-left: 40px;
 }
+.darker .about-container{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+}
 .about-container .cont {
   position: relative;
 }
@@ -102,6 +108,9 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 20px;
+}
+.darker .about-message{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
 }
 .about-message h1 {
   position: absolute;
@@ -113,6 +122,9 @@ body {
   margin: 0 20px 20px 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.darker .skills-cntainer{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
 }
 .skills {
   position: relative;
@@ -142,6 +154,9 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
+}
+.darker .contact-container{
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
 }
 .contact-container .email-message {
   width: 100%;
