@@ -1,16 +1,18 @@
+@import url("Responsive/responsive.css");
+
 body {
   margin: 0;
   padding: 0;
   background-color: white;
   color: black;
-  transition: background-color .8s ease, transform .8s ease;
+  transition: background-color 0.8s ease, transform 0.8s ease;
 }
-.darker{
-  background-color: black;
+.darker {
+  background-color: rgb(26, 25, 25);
   color: white;
-  transition: background-color .8s ease, transform .8s ease;
+  transition: background-color 0.8s ease, transform 0.8s ease;
 }
-.darker .header-container{
+.darker .header-container {
   background: rgba(5, 101, 246, 0.5);
   color: white;
 }
@@ -19,7 +21,7 @@ body {
 }
 
 .header-container {
-  background:  rgba(5, 101, 246, 0.5);
+  background: rgba(5, 101, 246, 0.5);
   color: black;
   display: flex;
   width: 95%;
@@ -56,7 +58,7 @@ body {
   color: var(--text-color);
   cursor: pointer;
   transform: scale(1.2);
-  transition: .4 ease-in-out;
+  transition: 0.4 ease-in-out;
 }
 .body-container {
   margin-left: 40px;
@@ -67,8 +69,8 @@ body {
   display: flex;
   padding-left: 40px;
 }
-.darker .body-container{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+.darker .body-container {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652);
 }
 .hello {
   width: 100%;
@@ -97,8 +99,8 @@ body {
 
   padding-left: 40px;
 }
-.darker .about-container{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+.darker .about-container {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652);
 }
 .about-container .cont {
   position: relative;
@@ -109,8 +111,8 @@ body {
   padding: 10px;
   border-radius: 20px;
 }
-.darker .about-message{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+.darker .about-message {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652);
 }
 .about-message h1 {
   position: absolute;
@@ -123,8 +125,8 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.darker .skills-cntainer{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+.darker .skills-cntainer {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652);
 }
 .skills {
   position: relative;
@@ -155,8 +157,8 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
 }
-.darker .contact-container{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652); 
+.darker .contact-container {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.652);
 }
 .contact-container .email-message {
   width: 100%;
@@ -223,8 +225,7 @@ body {
   height: 50px;
   background-color: blue;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   padding: 10px;
 }
-
